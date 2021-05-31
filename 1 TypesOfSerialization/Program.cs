@@ -73,7 +73,7 @@ namespace TypesOfSerialization {
       public decimal Salary { get; set; }
       public role Role { get; set; }
       private static int _count;
-      public int Count {   // read only свойство в XML и SOAP методах не сериализирется,
+      public int Count {   // read only свойство в XML и SOAP методах не сериализируется,
         get { return _count; }
         set { }            // поэтому добавил пустой сеттер
       }
