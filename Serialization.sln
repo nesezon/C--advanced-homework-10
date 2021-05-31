@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 TypesOfSerialization", "1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 CustomSerialization", "2 CustomSerialization\2 CustomSerialization.csproj", "{ED302C49-5DBC-400B-8DE4-171C3CC9B2B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 CustomDeserialization", "CustomDeserialization\3 CustomDeserialization.csproj", "{26FEFB3B-4BAD-4D6B-8DD8-1DDE39DF6906}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 CustomDeserialization", "3 CustomDeserialization\3 CustomDeserialization.csproj", "{26FEFB3B-4BAD-4D6B-8DD8-1DDE39DF6906}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
