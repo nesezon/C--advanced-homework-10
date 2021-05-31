@@ -36,8 +36,8 @@ namespace CustomSerialization {
       }
 
       // Сериализация атрибутами
+      Post.withAttributes = true;
       using (FileStream stream = new FileStream("PostsAttributes.xml", FileMode.Create)) {
-        Post.withAttributes = true;
         XMLserializer.Serialize(stream, Posts);
       }
     }
